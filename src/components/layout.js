@@ -30,14 +30,6 @@ export default ({ children }) => {
           {data.site.siteMetadata.title}
         </h3> */}
       </Link>
-      <Link
-        to={`/about/`}
-        css={css`
-          float: right;
-        `}
-      >
-        About
-      </Link>
       {children}
     </div>
   )
