@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import Events from "../components/events"
 import TopMenu from "../components/menu"
 import Header from "../components/header"
+import Footer from "../components/footer"
 import './index.css'
 
 export default ({ data }) => {
@@ -47,6 +48,7 @@ export default ({ data }) => {
         </div>
       </div>
       <Events />
+      <Footer />
     </Layout>
   )
 }
