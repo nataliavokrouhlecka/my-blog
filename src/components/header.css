@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  background-color: #F3E36D;
-  padding: 3em 5em;
+  background-color: #AFCFD5;
+  padding: 5em 10em;
 }
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
