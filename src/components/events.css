@@ -1,9 +1,13 @@
 .events {
-  background-color: #F3DCF0;
+  background-color: #A7A6CE;
   padding: 5em 3em;
 }
 
 .events-header {
   text-align: center;
   padding-bottom: 1em;
+}
+
+.events-timeline .ant-timeline-item-content {
+  font-size: 20px;
 }
