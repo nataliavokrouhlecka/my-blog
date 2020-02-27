@@ -1,25 +1,35 @@
 .header {
   width: 100%;
-  background-color: #AFCFD5;
+  background-image: url("../images/header.jpg");
+  min-height: 800px;
+  background-position: 20% 80%;
+  background-repeat:no-repeat;
   padding: 5em 10em;
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .header {
-    min-width: 400px;
     margin: 0 auto;
     text-align: center;
-  }
-}
-
-@media only screen and (min-width: 961px) {
-  .header {
-    min-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    min-height: 200px;
+    background-position: unset;
+    background-repeat: unset;
+    padding: 0;
   }
 }
 
 .header-tagline {
   font-family: 'Architects Daughter', cursive;
 }
+
+.header-content {
+  background-color: rgb(248, 248, 248, 0.8);
+  font-size: 24px;
+  font-family: 'Architects Daughter', cursive;
+  padding: 4em;
+}
+
+@media only screen and (max-width: 960px) {
+  .header-content {
+    font-size: 16px;
+  }
