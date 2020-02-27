@@ -1,5 +1,8 @@
 import React from "react"
 import { useStaticQuery, Link, graphql } from "gatsby"
+import TopMenu from "../components/menu"
+import Footer from "../components/footer"
+
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -14,8 +17,8 @@ export default ({ children }) => {
     `
   )
   return (
-    <div
-    >
+    <>
+      <TopMenu />
       <Link to={`/`}>
         {/* <h3
           css={css`
@@ -29,6 +32,7 @@ export default ({ children }) => {
         </h3> */}
       </Link>
       {children}
-    </div>
+      <Footer />
+    </>
   )
 }
