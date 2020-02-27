@@ -1,5 +1,5 @@
 .footer {
   padding: 3em 1em 1em 1em;
-  background-color: #9BA4CE;
+  background-color: var(--menu-footer-color);
   text-align: center;
 }

@@ -1,3 +1,11 @@
+html *{
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --menu-footer-color: #A6CBDB;
+}
+
 .title {
   text-align: center;
 }
