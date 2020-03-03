@@ -19,23 +19,17 @@ class TopMenu extends React.Component {
   render() {
     return (
       <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal" className="top-menu" id="top-menu">
-        <Menu.Item key="about">
+        <Menu.Item key="home">
           <Link to="/">Home</Link>
         </Menu.Item>
         <Menu.Item key="about">
-          <a href="#about">
-            About
-          </a>
+          <Link to="/#about">About</Link>
         </Menu.Item>
-        <Menu.Item key="articles">
-          <a href="#posts">
-            Articles
-            </a>
+        <Menu.Item key="posts">
+          <Link to="/#posts">Posts</Link>
         </Menu.Item>
         <Menu.Item key="events">
-          <a href="#events">
-            Events
-          </a>
+          <Link to="/#events">Events</Link>
         </Menu.Item>
       </Menu>
     );
