@@ -23,11 +23,7 @@ export default ({ data }) => {
                 color: inherit;
               `}
             >
-              <h3
-                css={css`
-                  margin-bottom: 2rem;
-                `}
-              >
+              <h3>
                 {node.frontmatter.title}{" "}
                 <span
                   css={css`
