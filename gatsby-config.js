@@ -9,6 +9,12 @@ module.exports = {
     title: `Natalia's blog`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-160002649-1",
+      },
+    },
       {
         resolve: `gatsby-plugin-subfont`,
         options: {
