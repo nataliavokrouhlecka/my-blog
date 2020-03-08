@@ -9,6 +9,7 @@
 }
 
 .footer-icon {
+  font-display: block;
   display: block;
   padding: 1em;
 }

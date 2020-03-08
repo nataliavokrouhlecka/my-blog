@@ -9,6 +9,14 @@ module.exports = {
     title: `Natalia's blog`,
   },
   plugins: [
+      {
+        resolve: `gatsby-plugin-subfont`,
+        options: {
+          silent: true,
+          fallback: false,
+          inlineFonts: true,
+        },
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
