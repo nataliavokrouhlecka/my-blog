@@ -2,7 +2,6 @@ import React from "react"
 import { css } from "@emotion/core"
 import 'antd/dist/antd.css'
 import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import Events from "../components/events"
 import Header from "../components/header"
@@ -26,7 +25,7 @@ export default ({ data }) => {
             >
               <h3
                 css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
+                  margin-bottom: 2rem;
                 `}
               >
                 {node.frontmatter.title}{" "}

@@ -12,7 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto:400,500,700&display=swap" rel="stylesheet" /> 
-        <script src="https://kit.fontawesome.com/190e01535f.js" crossOrigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/190e01535f.js" crossOrigin="anonymous" samesite="none Secure"></script>
         {props.headComponents}
         <title>Natalia's blog</title>
       </head>
