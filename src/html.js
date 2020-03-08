@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes}>
+    <html lang="en" {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -14,6 +14,7 @@ export default function HTML(props) {
         <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto:400,500,700&display=swap" rel="stylesheet" /> 
         <script src="https://kit.fontawesome.com/190e01535f.js" crossOrigin="anonymous"></script>
         {props.headComponents}
+        <title>Natalia's blog</title>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
